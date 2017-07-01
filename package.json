@@ -1,6 +1,6 @@
 {
   "name": "standard-prettier-eslint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Code -> prettier -> standard --fix -> Formatted Code",
   "keywords": [
     "prettier",
