@@ -19,8 +19,9 @@ Ex: package.json
 ```json
 "scripts": {
   ...
-  "lint": "standard --fix --verbose | snazzy",
-  "format": "prettier-eslint --write '**/*.js' --eslint-path=node_modules/standard-prettier-eslint"
+  "lint": "standard --verbose | snazzy",
+  "custom:format": "prettier-eslint --no-bracket-spacing --eslint-path=node_modules/standard-prettier-eslint",
+  "format": "npm run custom:format -- --write '**/*.js'"
 }
 ```
 
