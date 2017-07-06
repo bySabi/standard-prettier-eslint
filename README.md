@@ -1,5 +1,8 @@
 # standard-prettier-eslint
 
+A package helper for integrate [prettier-eslint][prettier-eslint] with [standard][standard]
+
+
 [![npm version](https://badge.fury.io/js/standard-prettier-eslint.svg)](https://badge.fury.io/js/standard-prettier-eslint)
 [![npm downloads](https://img.shields.io/npm/dm/standard-prettier-eslint.svg?style=flat-square)](https://www.npmjs.com/package/standard-prettier-eslint)
 
